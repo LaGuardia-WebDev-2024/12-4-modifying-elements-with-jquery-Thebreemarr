@@ -10,15 +10,26 @@
 
     <p>This is a <strong>caterpillar</strong> in its natural habitat:</p>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Monarch_caterpillar_on_swan_plant_branchlet.jpg/640px-Monarch_caterpillar_on_swan_plant_branchlet.jpg"
+      src="https://www.canr.msu.edu/home_gardening/uploads/images/banded%20woolly%20bear.jpg?language_id=1"
       width="400"
     />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
     <script>
 
+        $("img").mouseover(function(){
+          $("h1 ").text("the Butterfly" )
+      $("p").html("This is a butterfly in its natural habitat:" )
+      $("img").attr("src", "https://butterfly-conservation.org/sites/default/files/2018-06/36179366725-garden-tiger-arctia-caja.jpg")
 
-      
+        });
+       $("img").mouseout(function(){
+          $("h1 ").text("the caterpillar" )
+      $("p").html("This is a caterpillar in its natural habitat:" )
+      $("img").attr("src", "https://www.canr.msu.edu/home_gardening/uploads/images/banded%20woolly%20bear.jpg?language_id=1")
+
+        });
     </script>
   </body>
 </html>

@@ -8,3 +8,16 @@ html {
 h1 {
   font-family: "Poetsen One", sans-serif;
 }
+img {
+  border-radius: 18px; 
+  
+}
+body {
+  text-align: center; 
+}
+h1 {
+  color: white;
+}
+p {
+  color: rgb(249, 57, 0 )
+}
